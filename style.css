@@ -1,0 +1,33 @@
+body{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+background-image: url('img/drum.png');
+background-size: cover;
+background-color: #282c34;
+}
+
+.drum-container{
+position:absolute;
+display: flex;
+margin-left: 200px;
+gap: 20px;
+bottom: 50px;
+}
+.drum{
+    width: 80px;
+    height: 80px;
+    background-color: #333;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s;
+
+}
+.drum:active{
+    transform: scale(0.9);
+    box-shadow: 2px black;
+    background-color: blue;
+}
